@@ -1,0 +1,270 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0px;
+  background-color: #363543;
+}
+#first {
+  background-color: rgb(54, 53, 67);
+  height: 650px;
+}
+#nav {
+  display: flex;
+  padding-top: 30px;
+}
+#ul1 {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+.ul1li {
+  list-style-type: none;
+  font-size: larger;
+  font-weight: bolder;
+}
+.li1 {
+  margin-right: 3px;
+}
+.li2 {
+  color: #d1cfda;
+}
+#ul2 {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.ul2li {
+  list-style-type: none;
+}
+.li3 {
+  color: #ececf8;
+  font-weight: bold;
+}
+.li4 {
+  color: #656472;
+}
+.li5 {
+  color: #656472;
+}
+.li6 {
+  color: #656472;
+}
+#ul3 {
+  display: flex;
+  justify-content: right;
+  width: 30%;
+}
+.ul3li {
+  list-style-type: none;
+  color: #b3b3bf;
+  margin-right: 30px;
+  font-size: 20px;
+}
+#third {
+  height: 120px;
+  margin: 10px 140px 10px 140px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #403f51;
+  position: absolute;
+  margin-top: 450px;
+  width: 80%;
+}
+#third img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-left: 2px solid #363543;
+  border-right: 2px solid #363543;
+}
+#second {
+  display: flex;
+  justify-content: center;
+}
+#second2 {
+  width: 78%;
+  display: flex;
+}
+#second21 {
+  width: 40%;
+}
+#second21 h2 {
+  font-size: 50px;
+  color: #9d9caa;
+  position: absolute;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+#second21 h1 {
+  font-size: 60px;
+  margin-top: 110px;
+  position: absolute;
+  color: #feffff;
+  z-index: +1;
+  margin-bottom: 2px;
+  display: block;
+  line-height: 60px;
+}
+#second21 img {
+  width: 130px;
+  height: 5px;
+  padding: 20px 0;
+  margin-top: 170px;
+  position: absolute;
+}
+#second21 p {
+  margin-top: 210px;
+  font-weight: bold;
+  position: absolute;
+  font-size: medium;
+  color: #9999a5;
+}
+#second22 {
+  position: absolute;
+  /* z-index: -1; */
+}
+#second22 img {
+  padding: 0px;
+  margin-left: 280px;
+}
+#second23 {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 300px;
+}
+#second23 h4 {
+  margin-bottom: 0px;
+  font-weight: lighter;
+  color: #bab9c7;
+  font-size: 17px;
+}
+#second23 h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 19px;
+  color: #cbcad8;
+}
+#second23 div #img1 {
+  height: 485px;
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 370px;
+}
+#second23 h5 {
+  color: #edba47;
+  font-size: 13px;
+}
+#second23 h5 img {
+  height: 12px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+#second23 div #images1 {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+#images1 img {
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  background-color: #49495a;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#fourth {
+  background-color: #282834;
+  height: 890px;
+}
+#fourth21 {
+  padding: 160px 140px 110px 140px;
+  display: flex;
+  justify-content: space-between;
+}
+#fourth1 {
+  width: 50%;
+}
+#fourth1 h2 {
+  color: #f9fafc;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+#fourth p {
+  color: #9d9da9;
+}
+.f1 {
+  display: flex;
+}
+.f1c2 {
+  margin-left: 50px;
+}
+#fourth1 h3 {
+  color: #edba47;
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#fourth1 h6 {
+  color: #868692;
+  font-size: 12px;
+  margin-top: 2px;
+}
+#fourth2 {
+  width: 50%;
+}
+.f2 {
+  display: flex;
+}
+.img3 {
+  height: 100px;
+  width: 140px;
+}
+.img4 {
+  height: 18px;
+  width: 23px;
+  margin-top: 40px;
+}
+.f3 {
+  margin-left: 10px;
+  width: 370px;
+}
+.f3 h3 {
+  color: #dddbe8;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+#fourth2 hr {
+  color: #393945;
+}
+#fourth22 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 140px 0 140px;
+}
+.fourth22{
+  width: 32%;
+  background-color: #403f51;
+  margin: 0;
+}
+.fourth22 img{
+  background-color: #363545;
+  padding: 3px;
+  box-shadow: #38354a;
+  border-radius: 50%;
+  margin: 15px 0 0px 15px;
+}
+.fourth22 h3{
+  margin-left: 15px;
+  color: #e1dfec;
+  font-size: 25px;
+  letter-spacing: 0.8px;
+}
+.fourth22 h4{
+  color: #9291a1;
+  letter-spacing: 0.8px;
+  margin-left: 15px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
